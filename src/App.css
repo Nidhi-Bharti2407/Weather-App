@@ -1,10 +1,14 @@
 .bgImage{
-  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+ 
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.img{
+  background: url("pic1.jpg");
 }
 
 .heading{
@@ -16,15 +20,20 @@
   width: 500px;
   height: 300px;
 }
-.weathorIcon{
+.weatherIcon{
   margin-top: 2rem;
   width: 100px;
   height: 100px;
 }
-.weathorCity{
+.weatherCity{
   font-size: 35px;
 }
-.weathorTemp{
+.weatherTemp{
   font-size:55px;
   font-weight: 700;
+}
+
+input{
+  text-align: center;
+  height: 50px;
 }
